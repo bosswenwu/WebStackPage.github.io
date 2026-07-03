@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>此配置文件只会在主屏幕添加“腾远钴业”官网入口，目标网址为 https://www.tycogz.com/；不安装证书、不配置 VPN、不读取设备数据。</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>IsRemovable</key>
+			<true/>
+			<key>Label</key>
+			<string>腾远钴业</string>
+			<key>PayloadDescription</key>
+			<string>在主屏幕添加腾远钴业官方网站入口</string>
+			<key>PayloadDisplayName</key>
+			<string>腾远钴业官网</string>
+			<key>PayloadIdentifier</key>
+			<string>com.tycogz.webclip</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>5CDE6429-3EF1-4D26-A2F8-A1D1C83F24D7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<true/>
+			<key>URL</key>
+			<string>https://www.tycogz.com/</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>安装后在 iPhone 主屏幕显示腾远钴业官网入口。</string>
+	<key>PayloadDisplayName</key>
+	<string>腾远钴业官网</string>
+	<key>PayloadIdentifier</key>
+	<string>com.tycogz.webclip.profile</string>
+	<key>PayloadOrganization</key>
+	<string>赣州腾远钴业新材料股份有限公司</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>DD348D77-8E4A-461F-A5A5-231312C8A798</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
